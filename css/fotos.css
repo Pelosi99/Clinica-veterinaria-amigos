@@ -1,0 +1,179 @@
+#cabecalho{
+  background-color: #E8E5E0;
+}
+
+body{
+  background-color: #E8E5E0;
+  text-align: center;
+}
+
+.endereco{
+  text-decoration: none; 
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.menu{
+  font-size: x-large;
+}
+
+.fotos{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.main-footer{
+  text-align: center;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 800px;
+  height: 900px;
+  overflow: hidden;
+}
+
+.slides1{
+  width: 400%;
+  height: 200px;
+  display: flex;
+}
+
+.slides1 input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative;
+}
+
+
+.manual-navigation1{
+  position: absolute;
+  width: 800px;
+  margin-top: 650px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 20px;
+}
+
+.manual-btn:hover{
+  background-color: whitesmoke;
+}
+
+#radio1:checked ~ .first{
+  margin: 0;
+}
+#radio2:checked ~ .first{
+  margin: -12.5%;
+}
+#radio3:checked ~ .first{
+  margin: -25%;
+}
+#radio4:checked ~ .first{
+  margin: -37.5%;
+}
+#radio5:checked ~ .first{
+  margin: -50%;
+}
+#radio6:checked ~ .first{
+  margin: -62.5%;
+}
+#radio7:checked ~ .first{
+  margin: -75%;
+}
+
+.slider2{
+  margin: 0 auto;
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+}
+
+.slides2{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slides2 input{
+  display: none;
+}
+
+.slide{
+  width: 25%;
+  position: relative
+}
+
+.manual-navigation2{
+  position: absolute;
+  width: 800px;
+  margin-top: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn1{
+  border: 2px solid whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn1:not(:last-child){
+  margin-right: 20px;
+}
+
+.manual-btn1:hover{
+  background-color: whitesmoke;
+}
+
+#radio01:checked ~ .first{
+  margin: 0;
+}
+#radio02:checked ~ .first{
+  margin: -13%;
+}
+#radio03:checked ~ .first{
+  margin: -30%;
+}
+#radio04:checked ~ .first{
+  margin: -45%;
+}
+#radio05:checked ~ .first{
+  margin: -60%;
+}
+#radio06:checked ~ .first{
+  margin: -75%;
+}
+#radio07:checked ~ .first{
+  margin: -95%;
+}
+#radio8:checked ~ .first{
+  margin: -105%;
+}
+#radio9:checked ~ .first{
+  margin: -120%;
+}
